@@ -36,6 +36,6 @@ typedef struct {
 } token_t;
 
 token_t* token_init(int type, char* val);
-void token_kill(token_t* token);
+void token_kill(token_t* t);
 
 #endif
